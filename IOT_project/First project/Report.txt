@@ -1,0 +1,35 @@
+First I included the Timer.h library of the tiny os then I included the header file with the Timer_value variable that I created in it using enum function which is better than define. Then I defined in the module the interfaces that I have used in this program Boot for booting the devices, Timer for the timer and ...
+
+Then in the implemantation or body of the program I defined a variable as the counter then I called the TImer0 to start as soon as the device has been booted so after that I have created an event so as soon as the timer is fired we increment the counter and call the LED.set...
+
+Since the main nc file defines the constants and the logic of the program we need a third file to wire the interfaces that the implementation uses to the actual components which provide these interfaces so we create the SocialDistancingAppC.nc file...
+
+Then at last we need to make a makefile that in it the first line tells the Tinyos make system that the top-level app component is SocialDistancingAppC and the second line loads the Tinyos build system which has all the rules for building and installing on different platforms.
+
+Now we have to focus on defining a message format to send data over the radio. Our message sends both the node ID and the counter value. Rather than modifying the message_t payload area we will use a structure to hold them and them use structure assignment to copy the data into the message payload area. Using structure makes reading and writing easier so you don't need shifting and adding for multi-byte field messages.
+
+For defining a message structe with a unit16_t for node ID and a unit16_t for the counter in the payload. We add them in the SocialDistancing.h file to create the message structe. The nx_ prefix is to tell the processor to serialize the number in big endian format to avoid the reordering process. This was the message type defining step.
+
+Now we need to send the nodeId so we need to access the radio component so we need the interfaces that give us access to these components and to manipulate the message_t type. Then we have to update the module block in the SocialDistancingC.nc fileby adding uses statements for the interfaces that we need. Then we need to declare new variables and add any initialization and start or stop code that is needed by the interfaces and components. Fourth we add any calls to the component interfaces we need for our application. Fifth we need to implement the events we plan on using  for those events.Then we update the AppC file by adding a components statement foe each component we use. Finally we wire the interfaces used by the application to the components which provide those interfaces.
+
+1. We use AMSend to send packets and Packet and AMPacket interfaces to access the message_t data type. Then we use AMSenderC component. We start the radio using ActiveMessageC.SplitControl interface.
+
+2.Updating the module block of C.nc file by addig the uses statements fot the interfaces we need. We use the name AMControl to say that the SplitControl is being used the control the ActiveMessageC component.
+
+3. Declare any new vars and add any needed initialization code. We need a message_t to hold our data for transmission. And we use a flag to keep track of when the radio is busy sending. Then we need to turn on the radio by calling the AMControl.start inside Boot.booted so the radio starts at the boot. Since we can't use the radio before it is on we must put the start of the timer after that and the AMControl.startDone signals that the radio has completely started. So we put the timer start inside the AMControl.startDone event. So if the radio is successfully on it signals SUCCESS and then the timer is started. If not started we try to start it again. So if the radio doesn't start we won't move inside the program at all.
+
+4. Add program logic and calls to the used interfaces we need for our application. Since we need to send the ID when the timer fires we need to add program to the Timer.fired event. So here fisrt we check if the radio is not busy by checking the falg.Then it initialise the packet's fields and then send the packet by calling the AMSend.send in Broadcast mode. And if the message is accepted by the AM layer we set the flag to busy.
+
+5. Implement events specified in the interfaces we plan on using. Then we use AMSend.sendDone to see if we have sent the packet with success or not and it sets the busy flag to False so it can be reused. We check if the message is the same as the local buffer.
+
+6. Update the implementation of the App config file by adding the components satatement for each component used that provides one of the interfaces chosen earlier. Now we have to add the value AM_SOCIALDISTANCING in the enum of the .h header file.
+
+7. Wrie the interfaces used by the application to the components which provide those interfaces. We do the wiring in the AppC file.
+
+Now receiving a message over the Radio. 1. we use the Receive interface to receive packets so we add it to the module part of the C.nc file.
+
+2. So we need to implement the receive event to handle reception. In the receive event we first check the length of the message to be the same as we expected. 
+
+3. Update the implementation block of the AppC.nc config file by adding the components of the receive.The AM_SOCIALDISTANCING has been defined in .h header file.
+
+4.Finally wiring up the used interface component in the AppC.nc file.
