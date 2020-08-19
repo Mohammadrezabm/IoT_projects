@@ -46,8 +46,8 @@
       <breakpoints />
       <interface_config>
         org.contikios.cooja.interfaces.Position
-        <x>84.80182623527307</x>
-        <y>77.59713128209057</y>
+        <x>96.89618655810156</x>
+        <y>90.29620962106051</y>
         <z>0.0</z>
       </interface_config>
       <interface_config>
@@ -64,8 +64,8 @@
       <breakpoints />
       <interface_config>
         org.contikios.cooja.interfaces.Position
-        <x>53.69356545957683</x>
-        <y>79.9939806307651</y>
+        <x>24.667100684788323</x>
+        <y>87.2505968244622</y>
         <z>0.0</z>
       </interface_config>
       <interface_config>
@@ -82,8 +82,8 @@
       <breakpoints />
       <interface_config>
         org.contikios.cooja.interfaces.Position
-        <x>9.54915028125263</x>
-        <y>20.61073738537635</y>
+        <x>8.339714248969775</x>
+        <y>21.215455401517776</y>
         <z>0.0</z>
       </interface_config>
       <interface_config>
@@ -100,8 +100,8 @@
       <breakpoints />
       <interface_config>
         org.contikios.cooja.interfaces.Position
-        <x>65.45084971874736</x>
-        <y>2.447174185242318</y>
+        <x>61.21782360575739</x>
+        <y>41.7538452344351</y>
         <z>0.0</z>
       </interface_config>
       <interface_config>
@@ -118,8 +118,8 @@
       <breakpoints />
       <interface_config>
         org.contikios.cooja.interfaces.Position
-        <x>100.0</x>
-        <y>49.999999999999986</y>
+        <x>121.16513056494996</x>
+        <y>35.48676761260573</y>
         <z>0.0</z>
       </interface_config>
       <interface_config>
@@ -149,10 +149,11 @@
       <skin>org.contikios.cooja.plugins.skins.GridVisualizerSkin</skin>
       <skin>org.contikios.cooja.plugins.skins.TrafficVisualizerSkin</skin>
       <skin>org.contikios.cooja.plugins.skins.UDGMVisualizerSkin</skin>
-      <viewport>3.307326632604003 0.0 0.0 3.307326632604003 12.84258884783744 7.63366836979985</viewport>
+      <skin>org.contikios.cooja.plugins.skins.LEDVisualizerSkin</skin>
+      <viewport>3.307326632604003 0.0 0.0 3.307326632604003 -19.15741115216251 -2.3663316302001487</viewport>
     </plugin_config>
     <width>400</width>
-    <z>3</z>
+    <z>1</z>
     <height>400</height>
     <location_x>1</location_x>
     <location_y>1</location_y>
@@ -160,12 +161,12 @@
   <plugin>
     org.contikios.cooja.plugins.LogListener
     <plugin_config>
-      <filter>ID:1</filter>
+      <filter />
       <formatted_time />
       <coloring />
     </plugin_config>
     <width>1656</width>
-    <z>2</z>
+    <z>8</z>
     <height>240</height>
     <location_x>400</location_x>
     <location_y>160</location_y>
@@ -184,10 +185,11 @@
       <zoomfactor>500.0</zoomfactor>
     </plugin_config>
     <width>2056</width>
-    <z>4</z>
+    <z>-1</z>
     <height>166</height>
     <location_x>0</location_x>
-    <location_y>1267</location_y>
+    <location_y>1101</location_y>
+    <minimized>true</minimized>
   </plugin>
   <plugin>
     org.contikios.cooja.plugins.Notes
@@ -196,7 +198,7 @@
       <decorations>true</decorations>
     </plugin_config>
     <width>1376</width>
-    <z>5</z>
+    <z>7</z>
     <height>160</height>
     <location_x>680</location_x>
     <location_y>0</location_y>
@@ -207,13 +209,69 @@
     <plugin_config>
       <host>localhost</host>
       <port>1234</port>
-      <bound>true</bound>
+      <bound>false</bound>
     </plugin_config>
     <width>366</width>
-    <z>1</z>
+    <z>2</z>
     <height>116</height>
-    <location_x>400</location_x>
-    <location_y>438</location_y>
+    <location_x>164</location_x>
+    <location_y>610</location_y>
+  </plugin>
+  <plugin>
+    org.contikios.cooja.serialsocket.SerialSocketClient
+    <mote_arg>1</mote_arg>
+    <plugin_config>
+      <host>localhost</host>
+      <port>1235</port>
+      <bound>false</bound>
+    </plugin_config>
+    <width>366</width>
+    <z>3</z>
+    <height>116</height>
+    <location_x>194</location_x>
+    <location_y>640</location_y>
+  </plugin>
+  <plugin>
+    org.contikios.cooja.serialsocket.SerialSocketClient
+    <mote_arg>2</mote_arg>
+    <plugin_config>
+      <host>localhost</host>
+      <port>1236</port>
+      <bound>false</bound>
+    </plugin_config>
+    <width>366</width>
+    <z>4</z>
+    <height>116</height>
+    <location_x>224</location_x>
+    <location_y>670</location_y>
+  </plugin>
+  <plugin>
+    org.contikios.cooja.serialsocket.SerialSocketClient
+    <mote_arg>3</mote_arg>
+    <plugin_config>
+      <host>localhost</host>
+      <port>1237</port>
+      <bound>false</bound>
+    </plugin_config>
+    <width>366</width>
+    <z>5</z>
+    <height>116</height>
+    <location_x>254</location_x>
+    <location_y>700</location_y>
+  </plugin>
+  <plugin>
+    org.contikios.cooja.serialsocket.SerialSocketClient
+    <mote_arg>4</mote_arg>
+    <plugin_config>
+      <host>localhost</host>
+      <port>1238</port>
+      <bound>false</bound>
+    </plugin_config>
+    <width>366</width>
+    <z>6</z>
+    <height>116</height>
+    <location_x>284</location_x>
+    <location_y>730</location_y>
   </plugin>
 </simconf>
 

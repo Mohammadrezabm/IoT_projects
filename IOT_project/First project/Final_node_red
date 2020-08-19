@@ -1,1 +1,0 @@
-[{"id":"aaa0325a.52257","type":"function","z":"484dad23.a0d2ec","name":"Req Params","func":"msg.event = \"Too close\";\nmsg.payload = {\"value1\" : \"Mote4\", \"value2\" : \"Mote3\"}\nreturn msg;","outputs":1,"noerr":0,"x":930,"y":720,"wires":[["936487d9.2fc64"]]}]

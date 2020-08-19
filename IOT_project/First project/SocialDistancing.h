@@ -7,9 +7,10 @@ enum {
 };
 
 typedef nx_struct SocialDistancingMsg {
+
 	nx_uint16_t nodeid;
-	nx_uint16_t counter;
 
 } SocialDistancingMsg;
+
 
 #endif

@@ -7,8 +7,8 @@ configuration NodesAppC {
 implementation {
 	components MainC;
 	components NodesC as App;
-	components new TimerMilliC() as Timer1;
-	components new TimerMilliC() as Timer2;
+	components new TimerMilliC() as Data_timer;
+	components new TimerMilliC() as Retransmission_timer;
 	components ActiveMessageC;
 	components new AMSenderC(AM_NODES);
 	components new AMReceiverC(AM_NODES);
@@ -17,14 +17,13 @@ implementation {
 	components RandomC;
 
 	App.Boot -> MainC;
-	App.Timer1 -> Timer1;
-	App.Timer2 -> Timer2;
+	App.Data_timer -> Data_timer;
+	App.Retransmission_timer -> Retransmission_timer;
 	App.Packet -> AMSenderC;
 	App.AMPacket -> AMSenderC;
 	App.AMSend -> AMSenderC;
 	App.AMControl -> ActiveMessageC;
 	App.Receive -> AMReceiverC;
-	App.PacketAcknowledgements -> ActiveMessageC;
 	App.Random -> RandomC;
 
 }

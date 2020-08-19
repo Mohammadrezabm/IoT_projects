@@ -7,7 +7,7 @@ implementation {
 	components MainC;
 	components LedsC;
 	components SocialDistancingC as App;
-	components new TimerMilliC() as Timer0;
+	components new TimerMilliC() as Timer;
 	components ActiveMessageC;
 	components new AMSenderC(AM_SOCIALDISTANCING);
 	components new AMReceiverC(AM_SOCIALDISTANCING);
@@ -16,7 +16,7 @@ implementation {
 	
 	App.Boot -> MainC;
 	App.Leds -> LedsC;
-	App.Timer0 -> Timer0;
+	App.Timer -> Timer;
 	App.Packet -> AMSenderC;
 	App.AMPacket -> AMSenderC;
 	App.AMSend -> AMSenderC;
