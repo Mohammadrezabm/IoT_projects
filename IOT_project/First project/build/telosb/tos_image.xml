@@ -1,13 +1,13 @@
 <tos_image>
   <ident>
-    <timestamp>5F3D426CL</timestamp>
-    <appname>SocialDistancin</appname>
-    <uidhash>10DEE6A6L</uidhash>
-    <username>user</username>
     <deluge_support>no</deluge_support>
+    <timestamp>5F3DAF73L</timestamp>
+    <uidhash>2791CE77L</uidhash>
+    <username>user</username>
     <userhash>2C00343AL</userhash>
-    <hostname>user-iot</hostname>
     <platform>telosb</platform>
+    <hostname>user-iot</hostname>
+    <appname>SocialDistancin</appname>
   </ident>
   <image format="ihex">
 :104000005542200135D0085A82455A1C31400039AA
