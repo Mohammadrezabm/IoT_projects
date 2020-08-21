@@ -138,7 +138,7 @@
 01:00.118	ID:6	Packet with ID: 3 from the source address: 1 to the IDestynaton address: 8 has been received. 
 01:00.127	ID:6	And the Packet is successfully forwarded to the destination address: 8.
 01:01.077	ID:1	Packet with the ID: 3 to thV,e destination address: 8 form the source address: 1 loaded with usage data: 17 and temperature data: 34 has been3 created And successfully g7Packet with ID 3 is sent And6@ the retrasmsson tmer is start.
-01:01.086	ID:1	Packet with ID 3 sq] sent And the retrasmsson tmer is start.
+01:01.086	ID:1	Packet with ID 3 sq sent And the retrasmsson tmer is start.
 01:01.095	ID:6	Packet with ID: 3 from the source address: 1 to the IDestynaton address: 8 has been received. 
 01:01.104	ID:6	And the Packet is successfully forwarded to the destination address: 8.
 01:02.071	ID:6	Packet with ID: 3 from the source address: 1 to the IDestynaton address: 8 has been received. 
