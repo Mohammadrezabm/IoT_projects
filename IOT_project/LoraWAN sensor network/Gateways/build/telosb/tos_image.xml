@@ -1,12 +1,12 @@
 <tos_image>
   <ident>
-    <platform>telosb</platform>
+    <timestamp>5F3F14F5L</timestamp>
+    <uidhash>5497E3C7L</uidhash>
     <userhash>2C00343AL</userhash>
-    <uidhash>BFE5FE39L</uidhash>
-    <deluge_support>no</deluge_support>
-    <timestamp>5F3D57C5L</timestamp>
-    <username>user</username>
     <hostname>user-iot</hostname>
+    <username>user</username>
+    <deluge_support>no</deluge_support>
+    <platform>telosb</platform>
     <appname>GatewayAppC</appname>
   </ident>
   <image format="ihex">

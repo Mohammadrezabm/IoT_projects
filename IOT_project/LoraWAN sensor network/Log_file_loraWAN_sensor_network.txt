@@ -1,0 +1,145 @@
+00:19.411	ID:7	Packet with ID: 1 from the source address: 2 to the destination address: 8 has been received. 
+00:19.411	ID:6	Packet with ID: 1 from the source address: 2 to the destination address: 8 has been received. 
+00:19.419	ID:2	Packet with the ID: 1 to the destination address: 8 from the source address: 2 loaded with usage data: 67 and temperature data: 12 has been created And successfully sent. 
+00:19.428	ID:7	And the Packet is successfully forwarded to the destination address: 8.
+00:19.429	ID:6	And the Packet is successfully forwarded to the destination address: 8.
+00:19.431	ID:8	Packet with the ID: 1 from the source address: 2 to the destination address: 8 with the payload Usage data: 67 and temperature data: 12 has been received.
+00:19.443	ID:7	Packet with ID: 1 from the source address: 8 to the destination address: 2 has been received. 
+00:19.443	ID:6	Packet with ID: 1 from the source address: 8 to the destination address: 2 has been received. 
+00:19.450	ID:8	Acknowlgement of the Packet with the ID: 1 has successfully been sent to node with destination address: 2.
+00:19.452	ID:6	And the Packet is successfully forwarded to the destination address: 2.
+00:19.452	ID:7	And the Packet is successfully forwarded to the destination address: 2.
+00:19.778	ID:7	Packet with ID: 1 from the source address: 5 to the destination address: 8 has been received. 
+00:19.779	ID:5	Packet with the ID: 1 to the destination address: 8 from the source address: 5 loaded with usage data: 98 and temperature data: 24 has been 
+00:19.784	ID:5	created And successfully sent. 
+00:19.788	ID:7	And the Packet is successfully forwarded to the destination address: 8.
+00:19.811	ID:6	Packet with ID: 1 from the source address: 8 to the destination address: 5 has been received. 
+00:19.811	ID:7	Packet with ID: 1 from the source address: 8 to the destination address: 5 has been received. 
+00:19.820	ID:6	And the Packet is successfully forwarded to the destination address: 5.
+00:19.820	ID:7	And the Packet is successfully forwarded to the destination address: 5.
+00:19.824	ID:8	Packet with the ID: 1 from the source address: 5 to the ,destination address: 8 with the payload Usage data: 98 and temperature data: 24 has _been receivedAcknowlgement of the Packet with the ID: 1 has successfully been sent to node with destination address: 5.
+00:21.315	ID:7	Packet with ID: 1 from the source address: 3 to the destination address: 8 has been received. 
+00:21.322	ID:3	Packet with the ID: 1 to the destination address: 8 from the source address: 3 loaded with usage data: 56 And temmperature data: 27 has been rcreated And successfully sent. 
+00:21.333	ID:7	And the Packet is successfully forwarded to the destination address: 8.
+00:21.342	ID:6	Packet with ID: 1 from the source address: 8 to the destination address: 3 has been received. 
+00:21.348	ID:7	Packet with ID: 1 from the source address: 8 to the destination address: 3 has been received. 
+00:21.351	ID:6	And the Packet is successfully forwarded to the destination address: 3.
+00:21.355	ID:8	Packet with the ID: 1 from the source address: 3 to the vdestination address: 8 with the payload Usage data: 56 and temperature data: 27 has been receivedAcknowlgement of the Packet with the ID: 1 has successfully been sent to node with destination address: 3.
+00:21.357	ID:7	And the Packet is successfully forwarded to the destination address: 3.
+00:22.529	ID:7	Packet with ID: 1 from the source address: 4 to the IDestBnaton address: 8 has been received. 
+00:22.529	ID:6	Packet with ID: 1 from the source address: 4 to the IDestBnaton address: 8 has been received. 
+00:22.537	ID:4	Packet with the ID: 1 to the destination address: 8 from the source address: 4 loadede	ID with usage data: 9 and temperature data: 25 has been cXreat And successfully sent6. 
+00:22.547	ID:6	And the Packet is successfully forwarded to the destination address: 8.
+00:22.548	ID:7	And the Packet is successfully forwarded to the destination address: 8.
+00:22.562	ID:6	Packet with ID: 1 from the source address: 8 to the destination address: 4 has been received. 
+00:22.562	ID:7	Packet with ID: 1 from the source address: 8 to the destination address: 4 has been received. 
+00:22.568	ID:8	Packet with the ID: 1 from the source address: 4 to the 3destination address: 8 with the payload Usage data: 9 and temperature data: 25 has bIDeen receivedAcknowlgement of the Packet with the ID: 1B has successfully been sent to node with destination address: 4.
+00:22.571	ID:6	And the Packet is successfully forwarded to the destination address: 4.
+00:22.571	ID:7	And the Packet is successfully forwarded to the destination address: 4.
+00:22.674	ID:6	Packet with ID: 1 from the source address: 1 to the IDestynaton address: 8 has been received. 
+00:22.682	ID:1	Packet with the ID: 1 to the destination address: 8 from the source address: 1 loaded with usage data: 78 and temperature data: 13 has been &created And successfully sent. 
+00:22.685	ID:6	And the Packet is successfully forwarded to the destination address: 8.
+00:22.705	ID:7	Packet with ID: 1 from the source address: 8 to the destination address: 1 has been received. 
+00:22.707	ID:6	Packet with ID: 1 from the source address: 8 to the destination address: 1 has been received. 
+00:22.714	ID:7	And the Packet is successfully forwarded to the destination address: 1.
+00:22.716	ID:6	And the Packet is successfully forwarded to the destination address: 1.
+00:22.716	ID:8	Packet with the ID: 1 from the source address: 1 to the destination address: 8 with the payload Usage data: 78 and temperature data: 13 has ,Obeen receivedAcknowlgement of the Packet with the ID: 1 has successfully been sent to node with destination address: 1.
+00:34.514	ID:2	Packet with ID 1 is not a IDuplcate And has been ackeID. data tmer is restart And retransmsson tmer is off.
+00:34.517	ID:7	Packet with ID: 2 from the source address: 2 to the destination address: 8 has been received. 
+00:34.517	ID:6	Packet with ID: 2 from the source address: 2 to the destination address: 8 has been received. 
+00:34.534	ID:6	And the Packet is successfully forwarded to the destination address: 8.
+00:34.535	ID:7	And the Packet is successfully forwarded to the destination address: 8.
+00:34.549	ID:7	Packet with ID: 2 from the source address: 8 to the destination address: 2 has been received. 
+00:34.549	ID:6	Packet with ID: 2 from the source address: 8 to the destination address: 2 has been received. 
+00:34.558	ID:7	And the Packet is successfully forwarded to the destination address: 2.
+00:34.558	ID:6	And the Packet is successfully forwarded to the destination address: 2.
+00:34.559	ID:8	Packet with the ID: 2 from tohe source address: 2 to the destination address: 8 with the payload Usage data: 63 and temperature data: 7 has b6een receivedAcknowlgement of the Packet with the ID: 2 has successfully been sent to node with destination address: 2.
+00:34.560	ID:2	Packet with the ID: 2 to the destination address: 8 form the source address: 2 loaded with usage data: 63 and temperature data: 7 has been created And successfully sPacket with ID 2 is not a IDuBplcate And has been ackeID. data tmer is restart And retransmsson tmer is off.
+00:34.774	ID:5	Packet with ID 1 is not a IDuplcate And has been ackeID. data tmer is restart And retransmsson tmer is off.
+00:34.779	ID:7	Packet with ID: 2 from the source address: 5 to the destination address: 8 has been received. 
+00:34.789	ID:7	And the Packet is successfully forwarded to the destination address: 8.
+00:34.808	ID:6	Packet with ID: 2 from the source address: 8 to the destination address: 5 has been received. 
+00:34.811	ID:7	Packet with ID: 2 from the source address: 8 to the destination address: 5 has been received. 
+00:34.817	ID:6	And the Packet is successfully forwarded to the destination address: 5.
+00:34.818	ID:8	Packet with the ID: 2 from tohe source address: 5 to the ,destination address: 8 with the payload Usage data: 27 and temperature data: 44 has been receivedAcknowlgement of the Packet with the ID: 2 has successfully been sent to node with destination address: 5.
+00:34.820	ID:7	And the Packet is successfully forwarded to the destination address: 5.
+00:37.665	ID:7	Packet with ID: 2 from the source address: 3 to the destination address: 8 has been received. 
+00:37.666	ID:3	Packet with ID 1 is not a IDuplcate And has been ackeID. data tmer is restart And retransmsson tmer is off.
+00:37.683	ID:7	And the Packet is successfully forwarded to the destination address: 8.
+00:37.691	ID:6	Packet with ID: 2 from the source address: 8 to the destination address: 3 has been received. 
+00:37.698	ID:7	Packet with ID: 2 from the source address: 8 to the destination address: 3 has been received. 
+00:37.700	ID:6	And the Packet is successfully forwarded to the destination address: 3.
+00:37.704	ID:8	Packet with the ID: 2 from tohe source address: 3 to the vdestination address: 8 with the payload Usage data: 42 and temperature data: 19 has .been receivedAcknowlgement of the Packet with the ID: 2 has successfully been sent to node with destination address: 3.
+00:37.707	ID:7	And the Packet is successfully forwarded to the destination address: 3.
+00:37.710	ID:3	Packet with the ID: 2 to the destination address: 8 form the source address: 3 loaded with usage data: 42 And tGemperature data: 19 has been created And successfully g7Packet with ID 2 is not a IDuBplcate And has been ackeID. data tmer is restart And retransmsson tmer is off.
+00:40.636	ID:4	Packet with ID 1 is not a IDuplcate And has been ackeID. data tmer is restart And retransmsson tmer is off.
+00:40.645	ID:6	Packet with ID: 2 from the source address: 4 to the IDestBnaton address: 8 has been received. 
+00:40.645	ID:7	Packet with ID: 2 from the source address: 4 to the IDestBnaton address: 8 has been received. 
+00:40.654	ID:7	And the Packet is successfully forwarded to the destination address: 8.
+00:40.654	ID:6	And the Packet is successfully forwarded to the destination address: 8.
+00:40.678	ID:6	Packet with ID: 2 from the source address: 8 to the destination address: 4 has been received. 
+00:40.678	ID:7	Packet with ID: 2 from the source address: 8 to the destination address: 4 has been received. 
+00:40.685	ID:8	Packet with the ID: 2 from tohe source address: 4 to the 3destination address: 8 with the payload Usage data: 84 and temperature data: 32 has ojbeen receivedAcknowlgement of the Packet with the ID: 2 has successfully been sent to node with destination address: 4.
+00:40.687	ID:6	And the Packet is successfully forwarded to the destination address: 4.
+00:40.687	ID:7	And the Packet is successfully forwarded to the destination address: 4.
+00:40.903	ID:1	Packet with ID 1 is not a IDuplcate And has been ackeID. data tmer is restart And retransmsson tmer is off.
+00:40.908	ID:6	Packet with ID: 2 from the source address: 1 to the IDestynaton address: 8 has been received. 
+00:40.917	ID:6	And the Packet is successfully forwarded to the destination address: 8.
+00:40.943	ID:6	Packet with ID: 2 from the source address: 8 to the destination address: 1 has been received. 
+00:40.943	ID:7	Packet with ID: 2 from the source address: 8 to the destination address: 1 has been received. 
+00:40.948	ID:8	Packet with the ID: 2 from tohe source address: 1 to the destination address: 8 with the payload Usage data: 21 aU4nID temperature data: 40 has kbeen receivedAcknowlgement of the Packet with the ID: 2 has successfully been sent to node with destination address: 1.
+00:40.952	ID:7	And the Packet is successfully forwarded to the destination address: 1.
+00:40.952	ID:6	And the Packet is successfully forwarded to the destination address: 1.
+00:49.622	ID:2	Packet with the ID: 3 to the destination address: 8 from the source address: 2 loaded with usage data: 76 And te
+00:49.629	ID:7	Packet with ID: 3 from the source address: 2 to the destination address: 8 has been received. 
+00:49.629	ID:6	Packet with ID: 3 from the source address: 2 to the destination address: 8 has been received. 
+00:49.633	ID:2	mperature data: 29 has been zcreated And successfully sent. 
+00:49.640	ID:7	And the Packet is successfully forwarded to the destination address: 8.
+00:49.640	ID:6	And the Packet is successfully forwarded to the destination address: 8.
+00:49.662	ID:7	Packet with ID: 3 from the source address: 8 to the destination address: 2 has been reveived. 
+00:49.662	ID:6	Packet with ID: 3 from the source address: 8 to the destination address: 2 has been reveived. 
+00:49.671	ID:7	And the Packet is successfully forwarded to the destination address: 2.
+00:49.671	ID:6	And the Packet is successfully forwarded to the destination address: 2.
+00:49.672	ID:8	Packet with the ID: 3 from tUhe source address: 2 to the destination address: 8 with the payload Usage data: 76 and temperature data: 29 has been receivedAcknowlgement of the Packet with the ID: 3 has successfully been senta to node with destination address: 2.
+00:49.776	ID:5	Packet with the ID: 2 to the destination address: 8 form the source address: 5 loaded with usage data: 27 And t2emperature data: 44 has been created And successfully g7Packet with ID 2 is not a IDuBplcate And has been ackeID. data tmer is restart And retransmsson tmer is off.
+00:49.779	ID:7	&Packet with ID: 3 from the source address: 5 to the destination address: 8 has been received. 
+00:49.788	ID:7	And the Packet is successfully forwarded to the destination address: 8.
+00:49.813	ID:7	Packet with ID: 3 from the source address: 8 to the destination address: 5 has been received. 
+00:49.813	ID:6	&Packet with ID: 3 from the source address: 8 to the destination address: 5 has been received. 
+00:49.822	ID:6	And the Packet is successfully forwarded to the destination address: 5.
+00:49.822	ID:7	And the Packet is successfully forwarded to the destination address: 5.
+00:49.822	ID:8	Packet with the ID: 3 from tUhe source address: 5 to the ,destination address: 8 with the payload Usage data: 52 and temperature data: 42 has sbeen receivedAcknowlgement of the Packet with the ID: 3 has successfully been senta to node with destination address: 5.
+00:54.017	ID:7	Packet with ID: 3 from the source address: 3 to the destination address: 8 has been received. 
+00:54.023	ID:3	Packet with the ID: 3 to the destination address: 8 from the source address: 3 loaded with usage data: 34 And teCmperature data: 23 has been created And successfully sent. 
+00:54.026	ID:7	And the Packet is successfully forwarded to the destination address: 8.
+00:54.051	ID:6	Packet with ID: 3 from the source address: 8 to the destination address: 3 has been received. 
+00:54.051	ID:7	Packet with ID: 3 from the source address: 8 to the destination address: 3 has been received. 
+00:54.059	ID:8	Packet with the ID: 3 from tUhe source address: 3 to the vdestination address: 8 with the payload Usage data: 34 and temperature data: 23 has been receivedAcknowlgement of the Packet with the ID: 3 has successfully been senta to node with destination address: 3.
+00:54.060	ID:6	And the Packet is successfully forwarded to the destination address: 3.
+00:54.060	ID:7	And the Packet is successfully forwarded to the destination address: 3.
+00:58.762	ID:4	Packet with the ID: 2 to the destination address: 8 form the source address: 4 loaded with usage data: 84 And t{emperature data: 32 has been created And successfully g7Packet with ID 2 is not a IDuBplcate And has been ackeID. data tmer is restart And retransmsson tmer is off.
+00:58.768	ID:7	Packet with ID: 3 from the source address: 4 to the IDestBnaton address: 8 has been received. 
+00:58.768	ID:6	Packet with ID: 3 from the source address: 4 to the IDestBnaton address: 8 has been received. 
+00:58.785	ID:7	And the Packet is successfully forwarded to the destination address: 8.
+00:58.785	ID:6	And the Packet is successfully forwarded to the destination address: 8.
+00:58.800	ID:7	Packet with ID: 3 from the sopurce address: 8 to the destination address: 4 has been received. 
+00:58.800	ID:6	Packet with ID: 3 from the sopurce address: 8 to the destination address: 4 has been received. 
+00:58.808	ID:8	Packet with the ID: 3 from tUhe source address: 4 to the 3destination address: 8 with the payload Usage data: 93 aIDnID temperature data: 18 has been receivedAcknowlgement of the Packet with the ID: 3 has successfully been senta to node with destination address: 4.
+00:58.809	ID:6	And the Packet is successfully forwarded to the destination address: 4.
+00:58.809	ID:7	And the Packet is successfully forwarded to the destination address: 4.
+00:59.135	ID:1	Packet with the ID: 2 to the destination address: 8 form the source address: 1 loaded with usage data: 21 and temperature data: 40 has been$ created And successfully g7Packet with ID 2 is not a IDuBplcate And has been ackeID. data tmer is restart And retransmsson tmer is off.
+00:59.135	ID:6	Packet with ID: 3 from the source address: 1 to the IDestynaton address: 8 has been received. 
+00:59.144	ID:6	And the Packet is successfully forwarded to the destination address: 8.
+00:59.171	ID:6	Packet with ID: 3 from the source address: 8 to the destination address: 1 has been received. 
+00:59.171	ID:7	Packet with ID: 3 from the source address: 8 to the destination address: 1 has been received. 
+00:59.175	ID:8	Packet with the ID: 3 from tUhe source address: 1 to the destination address: 8 with the payload Usage data: 17 and temperature data: 34 has been receivedAcknowlgement of the Packet with the ID: 3 has successfully been senta to node with destination address: 1.
+00:59.180	ID:7	And the Packet is successfully forwarded to the destination address: 1.
+00:59.180	ID:6	And the Packet is successfully forwarded to the destination address: 1.
+01:00.118	ID:6	Packet with ID: 3 from the source address: 1 to the IDestynaton address: 8 has been received. 
+01:00.127	ID:6	And the Packet is successfully forwarded to the destination address: 8.
+01:01.077	ID:1	Packet with the ID: 3 to thV,e destination address: 8 form the source address: 1 loaded with usage data: 17 and temperature data: 34 has been3 created And successfully g7Packet with ID 3 is sent And6@ the retrasmsson tmer is start.
+01:01.086	ID:1	Packet with ID 3 sq] sent And the retrasmsson tmer is start.
+01:01.095	ID:6	Packet with ID: 3 from the source address: 1 to the IDestynaton address: 8 has been received. 
+01:01.104	ID:6	And the Packet is successfully forwarded to the destination address: 8.
+01:02.071	ID:6	Packet with ID: 3 from the source address: 1 to the IDestynaton address: 8 has been received. 
+01:02.080	ID:6	And the Packet is successfully forwarded to the destination address: 8.

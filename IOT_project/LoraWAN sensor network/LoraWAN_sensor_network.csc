@@ -232,7 +232,7 @@
   <plugin>
     org.contikios.cooja.plugins.SimControl
     <width>280</width>
-    <z>0</z>
+    <z>4</z>
     <height>160</height>
     <location_x>400</location_x>
     <location_y>0</location_y>
@@ -245,14 +245,13 @@
       <skin>org.contikios.cooja.plugins.skins.GridVisualizerSkin</skin>
       <skin>org.contikios.cooja.plugins.skins.TrafficVisualizerSkin</skin>
       <skin>org.contikios.cooja.plugins.skins.UDGMVisualizerSkin</skin>
-      <viewport>3.2872754788371474 0.0 0.0 3.2872754788371474 -131.75685562446262 -25.267438289943087</viewport>
+      <viewport>2.2828301936369084 0.0 0.0 2.2828301936369084 -30.503371961432492 55.5865011875395</viewport>
     </plugin_config>
     <width>400</width>
-    <z>-1</z>
+    <z>2</z>
     <height>400</height>
     <location_x>1</location_x>
     <location_y>1</location_y>
-    <minimized>true</minimized>
   </plugin>
   <plugin>
     org.contikios.cooja.plugins.LogListener
@@ -262,11 +261,10 @@
       <coloring />
     </plugin_config>
     <width>1656</width>
-    <z>-1</z>
+    <z>3</z>
     <height>240</height>
     <location_x>400</location_x>
     <location_y>160</location_y>
-    <minimized>true</minimized>
   </plugin>
   <plugin>
     org.contikios.cooja.plugins.TimeLine
@@ -285,11 +283,10 @@
       <zoomfactor>500.0</zoomfactor>
     </plugin_config>
     <width>2056</width>
-    <z>-1</z>
+    <z>1</z>
     <height>166</height>
     <location_x>0</location_x>
     <location_y>1101</location_y>
-    <minimized>true</minimized>
   </plugin>
   <plugin>
     org.contikios.cooja.plugins.Notes
@@ -298,7 +295,7 @@
       <decorations>true</decorations>
     </plugin_config>
     <width>1376</width>
-    <z>2</z>
+    <z>5</z>
     <height>160</height>
     <location_x>680</location_x>
     <location_y>0</location_y>
@@ -312,10 +309,10 @@
       <bound>false</bound>
     </plugin_config>
     <width>366</width>
-    <z>1</z>
+    <z>0</z>
     <height>116</height>
-    <location_x>16</location_x>
-    <location_y>38</location_y>
+    <location_x>8</location_x>
+    <location_y>404</location_y>
   </plugin>
 </simconf>
 
