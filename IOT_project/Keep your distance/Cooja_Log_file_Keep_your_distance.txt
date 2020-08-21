@@ -1,0 +1,98 @@
+00:06.290	ID:1	Alarm! The violating mote is: 5
+00:06.438	ID:5	Alarm! The violating mote is: 1
+00:09.701	ID:1	Alarm! The violating mote is: 5
+00:09.861	ID:5	Alarm! The violating mote is: 1
+00:10.680	ID:1	Memory write complete without errors!
+00:10.834	ID:5	Memory write complete without errors!
+00:12.633	ID:1	Alarm! The violating mote is: 5
+00:13.119	ID:1	Memory write complete without errors!
+00:13.276	ID:5	Alarm! The violating mote is: 1
+00:13.764	ID:5	Memory write complete without errors!
+00:15.567	ID:1	Alarm! The violating mote is: 5
+00:16.052	ID:1	Memory write complete without errors!
+00:16.691	ID:5	Alarm! The violating mote is: 1
+00:17.176	ID:5	Memory write complete without errors!
+00:18.980	ID:1	Alarm! The violating mote is: 5
+00:19.470	ID:1	Memory write complete without errors!
+00:19.621	ID:5	Alarm! The violating mote is: 1
+00:20.113	ID:5	Memory write complete without errors!
+00:21.923	ID:1	Alarm! The violating mote is: 2
+00:22.065	ID:2	Alarm! The violating mote is: 1
+00:22.398	ID:1	Memory write complete without errors!
+00:22.405	ID:1	Alarm! The violating mote is: 5
+00:22.416	ID:1	Alarm! The violating mote is: 2
+00:22.420	ID:1	Memory write complete without errors!
+00:22.891	ID:1	Alarm! The violating mote is: 5
+00:22.904	ID:1	Alarm! The violating mote is: 2
+00:22.909	ID:1	Memory write complete without errors!
+00:23.043	ID:2	Memory write complete without errors!
+00:23.046	ID:5	Alarm! The violating mote is: 1
+00:23.376	ID:1	Alarm! The violating mote is: 5
+00:23.390	ID:1	Alarm! The violating mote is: 2
+00:23.395	ID:1	Memory write complete without errors!
+00:23.527	ID:5	Memory write complete without errors!
+00:23.866	ID:1	Alarm! The violating mote is: 5
+00:23.879	ID:1	Alarm! The violating mote is: 2
+00:23.884	ID:1	Memory write complete without errors!
+00:24.355	ID:1	Alarm! The violating mote is: 5
+00:24.369	ID:1	Alarm! The violating mote is: 2
+00:24.378	ID:1	Memory write complete without errors!
+00:24.841	ID:1	Alarm! The violating mote is: 5
+00:24.855	ID:1	Alarm! The violating mote is: 2
+00:24.860	ID:1	Memory write complete without errors!
+00:24.999	ID:2	Alarm! The violating mote is: 1
+00:25.325	ID:1	Alarm! The violating mote is: 5
+00:25.339	ID:1	Alarm! The violating mote is: 2
+00:25.344	ID:1	Memory write complete without errors!
+00:25.481	ID:2	Memory write complete without errors!
+00:25.817	ID:1	Alarm! The violating mote is: 5
+00:26.305	ID:1	Memory write complete without errors!
+00:26.463	ID:5	Alarm! The violating mote is: 1
+00:26.947	ID:5	Memory write complete without errors!
+00:31.313	ID:3	Alarm! The violating mote is: 4
+00:31.373	ID:4	Alarm! The violating mote is: 3
+00:32.285	ID:3	Memory write complete without errors!
+00:32.344	ID:4	Memory write complete without errors!
+00:34.304	ID:4	Alarm! The violating mote is: 3
+00:34.728	ID:3	Alarm! The violating mote is: 4
+00:34.791	ID:4	Memory write complete without errors!
+00:34.795	ID:5	Memory read successfully. Saved node ID is: 1
+00:34.801	ID:5	Alarm! The violating mote is: 3
+00:34.809	ID:5	Memory write complete without errors!
+00:35.091	ID:3	Memory write complete without errors!
+00:35.098	ID:3	Alarm! The violating mote is: 5
+00:35.107	ID:3	Memory write complete without errors!
+00:35.213	ID:3	Alarm! The violating mote is: 4
+00:35.583	ID:3	Memory write complete without errors!
+00:35.589	ID:3	Alarm! The violating mote is: 5
+00:35.704	ID:3	Memory write complete without errors!
+00:35.711	ID:3	Alarm! The violating mote is: 4
+00:35.719	ID:3	Memory write complete without errors!
+00:36.071	ID:3	Alarm! The violating mote is: 5
+00:36.195	ID:3	Memory write complete without errors!
+00:36.202	ID:3	Alarm! The violating mote is: 4
+00:36.211	ID:3	Memory write complete without errors!
+00:36.572	ID:3	Alarm! The violating mote is: 2
+00:36.711	ID:3	Memory write complete without errors!
+00:36.717	ID:3	Alarm! The violating mote is: 1
+00:36.746	ID:2	Memory read successfully. Saved node ID is: 1
+00:36.746	ID:1	Memory read successfully. Saved node ID is: 5
+00:36.753	ID:2	Alarm! The violating mote is: 3
+00:36.753	ID:1	Alarm! The violating mote is: 3
+00:36.761	ID:2	Memory write complete without errors!
+00:36.761	ID:1	Memory write complete without errors!
+00:37.059	ID:3	Memory write complete without errors!
+00:37.065	ID:3	Alarm! The violating mote is: 2
+00:37.074	ID:3	Memory write complete without errors!
+00:37.205	ID:3	Alarm! The violating mote is: 1
+00:37.549	ID:3	Memory write complete without errors!
+00:37.556	ID:3	Alarm! The violating mote is: 2
+00:37.565	ID:3	Memory write complete without errors!
+00:37.689	ID:3	Alarm! The violating mote is: 1
+00:38.034	ID:3	Memory write complete without errors!
+00:38.039	ID:3	Alarm! The violating mote is: 2
+00:42.910	ID:1	Memory read successfully. Saved node ID is: 5
+00:42.916	ID:1	Alarm! The violating mote is: 5
+00:43.064	ID:5	Memory read successfully. Saved node ID is: 1
+00:43.070	ID:5	Alarm! The violating mote is: 1
+00:43.078	ID:5	Memory write complete without errors!
